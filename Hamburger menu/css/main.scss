@@ -1,0 +1,14 @@
+// cursor
+html, body{
+    height: 100vh;
+    
+    
+}
+.cursor{
+    background-color: rgb(161, 51, 62);
+    width: 23px;
+    height: 23px;
+    // border: 1px solid rgb(202, 19, 50);
+    border-radius: 50%;
+    position: absolute;
+}

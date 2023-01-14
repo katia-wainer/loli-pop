@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="./css/menu.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Open+Sans:wght@300;400&family=Roboto:wght@300&family=Tajawal:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/transition.css">
+    
+
+    <title>WELCOME</title>
+    
+</head>
+<body>
+    
+    <div class="custom-cursor site-wide"><!-- div for transition -->
+         <div class="pointer"></div>
+    </div>
+    
+    <div class="cursor"></div>
+    <div class="logo">
+        <a href="./index.html">
+        <img src="./img/לוגוו.svg" alt="logo"
+        width="90px"
+        height="90px"> </a>      
+    </div>
+    <div class="container-transition">
+    <header class="hero">
+     <div class="header">
+        <h1>WELCOME</h1>
+        <div class="content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore minima aliquid, recusandae animi in corporis expedita corrupti sit voluptatibus ab ex quisquam, unde hic possimus maxime voluptatum ipsa! Repellendus excepturi magni necessitatibus doloremque impedit quam distinctio expedita molestias mollitia reprehenderit quidem voluptatum cumque vero aliquam iusto possimus totam quia, dolorem facilis saepe nobis, incidunt consequuntur perferendis repudiandae. Eligendi eum dolores tempore repudiandae libero voluptates doloribus? Quaerat laboriosam porro dolorem aut unde placeat magnam ducimus pariatur, commodi soluta fuga tempora, ratione optio obcaecati inventore distinctio beatae necessitatibus ipsam a. Molestiae, corporis quos! Pariatur illo placeat a voluptatem iste, quisquam fuga deserunt!</p>
+    </div>
+        
+     </div>
+     <div class="img fade fade-in">
+        <img class="from-right img-straw" src="./img/תות.jpg">
+     </div>
+    </header>
+    <main>
+        <div class="first flex-columns">
+            <div class="row">
+                <div class="column">
+                    <div class="column-1 the-founder fade-in">
+                        <img class="from-left women" src="./img/אישה.jpg" alt="the founder picture">
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="column-2">
+                        <h2>THE FOUNDER</h2>
+                        <div class="content">
+                        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum obcaecati dolor sint, commodi sequi libero eveniet a distinctio eaque, quisquam cum vero laudantium assumenda molestiae repellat placeat dignissimos atque expedita ullam. Amet alias repellat, rerum aliquam, non saepe doloribus placeat quasi deserunt porro eaque necessitatibus temporibus. Suscipit fugit, non expedita voluptas sequi fuga maiores dolorem similique quas, vero, quo atque explicabo eos natus distinctio? Vero labore et minima! Earum ratione dignissimos cum aliquid, debitis nam ut veniam, quisquam ipsum reprehenderit molestiae! Quod atque excepturi ea dolore accusamus voluptatum enim? Minus officia, nemo vero et veniam vitae labore sed eligendi quis.</P>
+                    </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        
+        <div class="flex-columns flex-reverse">
+            <div class="row">
+                <div class="column">
+                    <div class="column-1 nature fade-in">
+                        <img src="./img/צמח.jpg" alt="nature" class="from-right">
+                    </div>
+                </div>
+                <div class="column">
+                <div class="column-2 the-story">
+                    <h2>THE STORY</h2>
+                    <div class="content">
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas quibusdam, velit ipsam consequatur aspernatur maxime tempora enim magnam voluptate atque distinctio suscipit quis dignissimos vero incidunt alias maiores, dolore facere quasi voluptatibus culpa sequi? Blanditiis officia inventore corporis provident. Vero suscipit molestias pariatur soluta. Doloribus veniam optio distinctio odit quam veritatis, fuga non temporibus quas, consequuntur aliquid magni atque laudantium sed natus voluptatum vel, maiores quo vero accusamus autem odio suscipit quibusdam. Non, voluptates iure. Doloribus qui nesciunt eligendi aut repellat aperiam iusto minima hic amet quam, quod eius, voluptas nulla voluptatibus officiis. Quod aspernatur odio est sit quo beatae non amet earum quas repellendus qui, minima illo provident corporis cupiditate a. Aliquam accusamus, voluptates delectus recusandae fuga in quibusdam facilis quo nihil illum ipsam atque corporis libero ab porro laudantium beatae? Dolorem omnis amet, modi quaerat ipsam praesentium, dicta libero harum ullam, sit provident in odio. Voluptas, harum explicabo.</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+        </div> 
+    </div>
+
+    </main>
+    <footer id="main-footer">
+        <p>All Rights Reserved &copy; 2023 </p>
+      </footer>
+    <script src="css/observer.js"></script>
+
+
+
+
+ <script>
+    const cursor = document.querySelector('.cursor');
+
+     document.addEventListener('mousemove', e => {
+        cursor.setAttribute("style", "top: "+(e.pageY - 13)+"px; left: "+(e.pageX - 13)+"px;")
+     })
+</script>
+    
+   
+</body>
+</html>
